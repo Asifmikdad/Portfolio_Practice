@@ -1,8 +1,18 @@
+/* Reset Style */
 *{
     padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
 
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
 }
 .common-btn{
     background-color:#FD6E0A;
@@ -12,14 +22,25 @@
     font-size: 22px;
     color: white;
     border: none;
+    cursor: pointer;
+}
+
+.outline-btn{
+    background-color:#ffffff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: orange;
+    border:rgb(0, 0, 0);
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
 }
 
 nav{
    
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
     padding: 8px 0;
     
 }
@@ -42,4 +63,31 @@ ul li a{
 }
 .logo-r{
     color: #FD6E0A;
+}
+
+/* Hero section Style */
+.hero-parent-root{
+        background-color: #fffdf7;
+
+}
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.hero-left p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero-left-button-parent{
+    margin-top: 8px;
 }
